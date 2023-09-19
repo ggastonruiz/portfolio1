@@ -1,0 +1,61 @@
+/* Importar la tipografía */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;700&display=swap');
+/* Importar estilos */
+@import url(./header.css);
+@import url(./aboutme.css);
+@import url(./card.css);
+@import url(./proyectos.css);
+@import url(./skills.css);
+@import url(./footer.css);
+
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables de color */
+:root{
+    --color-primary: #024959;
+    --color-primary1: #024959;
+    --color-primary2: #026773;
+    --color-secondary: #3CA6A6;
+    --color-orange: #F2E3D5;
+    --box-shadow: 2px 2px 20px rgb(37, 37, 37);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-primary1);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.title{
+    margin: 16px 0;
+    padding: 13px;
+    text-align: center;
+    background-color: #026773;
+    font-size: 40px;
+
+}
+.titulo{
+    margin: 16px 0;
+    padding: 13px;
+    text-align: center;
+    background-color: #026773;
+    font-size: 40px;
+}
+

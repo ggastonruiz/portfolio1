@@ -1,0 +1,31 @@
+h2.title.contact{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #024959;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 56px;
+}
+
+footer a i{
+    font-size: 56px;
+}
+
+footer a:hover{
+    transition: all 500ms;
+    transform: scale(1.1);
+    color: var(#0093E9);
+
+}
+
+footer a:hover i{
+    transition: all 250ms;
+    font-size: 55px;
+}
+
+footer a:hover h3{
+    visibility: hidden;
+}

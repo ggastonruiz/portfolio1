@@ -1,0 +1,29 @@
+#skill{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    
+}
+
+#skill article{
+    width: 200px;
+    background-color: rgb(43, 221, 221);
+    padding: 48px 8px;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    transition: background 5s;
+
+}
+#skill article:hover {
+    background: linear-gradient(-45deg, var(--color-orange) 0%, var(--color-primary) 50%, var(--color-secondary) 100%);
+
+}
+
+#skill article i{
+    font-size: 48px;
+}
